@@ -1,3 +1,4 @@
+// zmiana commit message
 import java.util.Scanner;
 
 // porównują elementy równania i zwracają logiczną wartość (true/false)
