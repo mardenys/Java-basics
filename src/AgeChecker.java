@@ -7,9 +7,13 @@ public class AgeChecker {
         System.out.println("Ile masz lat?");
         int age = scanner.nextInt();
 
-        if(age <18) {
+        if(age < 18 && age >= 0) {
             System.out.println("Poczekaj od 18 urodzin");
-        } else {
+        } else if (age < 0) {
+            System.out.println("Wprowadź wartość więszką od zera");
+        } else
+
+        {
             System.out.println("Dziękuję za zakupy");
         }
     }
