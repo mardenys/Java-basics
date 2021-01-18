@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 //3 obiekty klasy student, przypisane wartości do pól. Stworzona tablica i dodanie studentów do tablicy
 public class StudentCheck {
 
@@ -30,14 +32,8 @@ public class StudentCheck {
 
         }
 
-        /*Alba.przedstawSie();
-        Alba.zalogujSie();
-
-        Tomasz.przedstawSie();
-        Tomasz.zalogujSie();
-
-        Marcin.przedstawSie();
-        Marcin.zalogujSie();*/
+        String imie = "Kasua";
+        Scanner scanner = new Scanner(System.in);
 
 
 
