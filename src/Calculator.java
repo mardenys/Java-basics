@@ -1,27 +1,24 @@
-import java.util.Scanner;
-
 public class Calculator {
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Podaj pierwsza liczbe");
-        int firstNumber = scanner.nextInt();
 
-        System.out.println("Podaj druga liczbe");
-        int secondNumber = scanner.nextInt();
+    public int add (int firstNumber, int secondNumber) {
+        System.out.println("Suma tych liczb to: " + (firstNumber + secondNumber));
+        return firstNumber + secondNumber;
+    }
 
-        int addition = firstNumber + secondNumber;
-        int substraction = firstNumber - secondNumber;
-        int multiplication = firstNumber*secondNumber;
-        int division = firstNumber/secondNumber;
-        int modulus = firstNumber%secondNumber;
+    public int substract (int firstNumber, int secondNumber) {
+        System.out.println("Różnica tych liczb: " + (firstNumber - secondNumber));
+        return firstNumber - secondNumber;
+    }
 
-        System.out.println("Wynik dodawania: " + addition);
-        System.out.println("Wynik odejmowania: " + substraction);
-        System.out.println("Wynik mnożenia: " + multiplication);
-        System.out.println("Wynik dzielenia: " + division);
-        System.out.println("Wynik modulus: " + modulus);
+    public int multiply (int firstNumber, int secondNumber) {
+        System.out.println("Iloraz tych liczb to: " + (firstNumber*secondNumber));
+        return firstNumber*secondNumber;
+    }
 
+    public int divide (int firstNumber, int secondNumber) {
+        System.out.println("Iloczyn tych liczb to: " + (firstNumber/secondNumber));
+        return firstNumber/secondNumber;
     }
 }
